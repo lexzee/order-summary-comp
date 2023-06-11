@@ -27,7 +27,7 @@ function App({value, className}) {
               </p>
             </div>
             <div className="change">
-              <a href="https://example.html">
+              <a href="https://example.com">
                 Change
               </a>
             </div>

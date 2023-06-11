@@ -72,8 +72,13 @@
   color: hsl(223, 47%, 23%);
   margin-bottom: .3rem;
 }
-.change{
+.change, a{
   margin-left: auto;
+  text-decoration: none;
+  font-weight: 700;
+}
+a:active{
+  color: hsla(245, 75%, 52%, .7);
 }
 
 
@@ -93,8 +98,14 @@
   background-color: hsl(245, 75%, 52%);
   box-shadow: .0 .7rem 1rem hsla(224, 23%, 55%, .5);
 }
+.proceed:active{
+  opacity: .7;
+}
 .cancel{
   background-color: transparent;
   margin-top: .8rem;
   color: hsl(224, 23%, 55%);
+}
+.cancel:active{
+  color: hsl(223, 47%, 23%);
 }
