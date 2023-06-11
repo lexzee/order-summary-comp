@@ -1,42 +1,39 @@
 import { useState } from 'react'
 import './App.css'
+import Button from './components/Button'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+function App({value, className}) {
   return (
     <>
       <div className="App">
         <div className="cardImg">
           <img src="./src/images/illustration-hero.svg" alt="" className="image" />
-          <div className="cardBody">
-            <h1 className="cardHeader">
-              Order Summary
-            </h1>
-            <p className="description">
-            You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
-            </p>
-            <div className="planPayment">
-              <img src="./src/images/icon-music.svg" alt="#" className="icon" />
-              <div className="planDet">
-                <p className="subHeader">
-                  Annual Plan
-                </p>
-                <p>
-                  $59.99/year
-                </p>
-                <a href="https://example.html">
-                  Change
-                </a>
-              </div>
-              <button className="proceed">
-                Proceed to Payment
-              </button>
-              <button className="cancel">
-                Cancel Order
-              </button>
+        </div>
+        <div className="cardBody">
+          <h1 className="cardHeader">
+            Order Summary
+          </h1>
+          <p className="description">
+          You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
+          </p>
+          <div className="planPayment">
+            <img src="./src/images/icon-music.svg" alt="#" className="icon" />
+            <div className="planDet">
+              <p className="subHeader">
+                Annual Plan
+              </p>
+              <p>
+                $59.99/year
+              </p>
+            </div>
+            <div className="change">
+              <a href="https://example.html">
+                Change
+              </a>
             </div>
           </div>
+          <Button value="Proceed to Payment" className="proceed" />
+          <Button value="Cancel Order" className="cancel" />
         </div>
       </div>
       <div class="attribution">

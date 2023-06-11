@@ -2,4 +2,99 @@
   max-width: 1280px;
   margin: 0 auto;
   text-align: center;
+  display: relative;
+  place-items: center;
+}
+
+.App {
+  background-color:  white;
+  margin: 2rem auto;
+  max-width: 350px;
+  display: relative;
+  place-items: center;
+  border-radius: 1.5rem;
+  font-size: small;
+  box-shadow: .0 .9rem 1rem hsla(224, 23%, 55%, .3);
+}
+
+.cardImg{
+  max-width: 350px;
+  display: relative;
+  place-items: center;
+  border-radius: 1.5rem 1.5rem 0 0;
+}
+.image{
+  display: block;
+  width: 100%;
+  border-radius: inherit;
+}
+
+.cardBody{
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+.cardHeader{
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin: auto;
+  color:  hsl(223, 47%, 23%);
+}
+.description{
+  font-size: .95rem;
+  color: hsl(224, 23%, 55%);
+  line-height: 1.5rem;
+  margin: 1rem 1.2rem;
+}
+
+.planPayment{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  place-items: center;
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color:  hsl(225, 100%, 98%);
+  width: 100%;
+  border-radius: 1rem;
+  color: hsl(224, 23%, 55%);
+}
+.planPayment p{
+  margin: 0;
+}
+.icon{
+  margin-right: 1rem;
+}
+.planPayment .subHeader{
+  font-weight: 900;
+  margin: 0;
+  color: hsl(223, 47%, 23%);
+  margin-bottom: .3rem;
+}
+.change{
+  margin-left: auto;
+}
+
+
+.btn{
+  box-sizing: border-box;
+  width: 100%;
+  padding: .9rem;
+  margin-top: 1rem;
+  border-radius: .8rem;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  font-weight: 900;
+  border: none;
+  cursor: pointer;
+}
+.proceed{
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: .0 .7rem 1rem hsla(224, 23%, 55%, .5);
+}
+.cancel{
+  background-color: transparent;
+  margin-top: .8rem;
+  color: hsl(224, 23%, 55%);
 }

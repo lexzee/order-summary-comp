@@ -1,3 +1,10 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: relative;
+  place-items: center;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(225, 100%, 94%);
 }
