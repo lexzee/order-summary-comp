@@ -1,13 +1,14 @@
-import { useState } from 'react'
 import './App.css'
 import Button from './components/Button'
+import hero from './images/illustration-hero.svg'
+import icon from './images/icon-music.svg'
 
 function App({value, className}) {
   return (
     <>
       <div className="App">
         <div className="cardImg">
-          <img src="./src/images/illustration-hero.svg" alt="" className="image" />
+          <img src={hero} alt="" className="image" />
         </div>
         <div className="cardBody">
           <h1 className="cardHeader">
@@ -17,7 +18,7 @@ function App({value, className}) {
           You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
           </p>
           <div className="planPayment">
-            <img src="./src/images/icon-music.svg" alt="#" className="icon" />
+            <img src={icon} alt="#" className="icon" />
             <div className="planDet">
               <p className="subHeader">
                 Annual Plan
@@ -37,8 +38,8 @@ function App({value, className}) {
         </div>
       </div>
       <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">Your Name Here</a>.
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/lexzee">Lexzee</a>.
       </div>
     </>
   )
