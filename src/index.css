@@ -13,13 +13,13 @@ body{
   min-width: 320px;
   max-width: 1440px;
   min-height: 100vh;
-  background-image: url('./pattern-background-mobile.svg');
-  background-repeat: no-repeat;
+  background: url("/pattern-background-mobile.svg") no-repeat, hsl(224, 23%, 94%);
+  background-size: contain;
 }
 
 @media (min-width: 780px){
   body{
-    background: url("./pattern-background-desktop.svg") no-repeat, hsl(224, 23%, 94%);
+    background: url("/pattern-background-desktop.svg") no-repeat, hsl(224, 23%, 94%);
     background-size: contain;
   }
 }
