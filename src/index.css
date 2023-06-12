@@ -23,7 +23,7 @@ body{
 
 @media (min-width: 780px){
   body{
-    background-image: url('./pattern-background-desktop.svg');
+    background-image: url('./public/pattern-background-desktop.svg');
     background-repeat: no-repeat;
     background-position-x: center;
   }
